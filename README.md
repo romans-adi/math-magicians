@@ -35,7 +35,6 @@ Math Magicians is a website catering to mathematics enthusiasts. It is designed 
     <li><a href="https://html.spec.whatwg.org/multipage/">HTML</a></li>
    <li><a href="https://www.w3.org/TR/CSS/#css">CSS</a></li>
    <li><a href="https://www.javascript.com/">JavaScript</a></li>
-   <li><a href="https://webpack.js.org/">Webpack bundler</a></li>
    <li><a href="https://react.dev/">React</a></li>
   </ul>
 
