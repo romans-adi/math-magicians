@@ -103,7 +103,7 @@ To run tests, execute the following command:
 
 ### Deployment
 
-This project is deployed using GitHub Pages:
+This project is planned to be deployed using GitHub Pages:
 
 - [GitHub Pages](https://pages.github.com/)
 
