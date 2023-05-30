@@ -1,0 +1,84 @@
+@import url('https://fonts.cdnfonts.com/css/copenhagen-grotesk');
+
+$primary-color: rgb(224, 225, 225);
+$secondary-color: rgb(244, 144, 62);
+$tertiary-color: rgb(132, 134, 149);
+$border-color: rgb(193, 192, 193);
+$text-color: rgb(255, 255, 255);
+$text-second: rgb(0, 0, 0);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Copenhagen Grotesk', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 2rem;
+  background-color: #f0f0f0;
+}
+
+.container {
+  height: 80vh;
+  width: 60vh;
+  padding: 0.3rem;
+  box-shadow: 29px 23px 20px 10px rgba(50, 50, 50, 0.8);
+}
+
+.wrapper {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  gap: 3px;
+}
+
+.result {
+  grid-column: 1 / -1;
+  color: $text-color;
+  align-items: center;
+  justify-content: flex-end;
+  display: flex;
+  padding: 0.5rem;
+  font-size: 4rem;
+  overflow: hidden;
+  background-color: $tertiary-color;
+}
+
+.btn {
+  font-size: 2rem;
+  display: grid;
+  place-content: center;
+  cursor: pointer;
+}
+
+.btn-grey {
+  background-color: $primary-color;
+  color: $text-second;
+
+  &:hover {
+    background-color: $tertiary-color;
+    color: $text-color;
+  }
+}
+
+.btn-orange {
+  background-color: $secondary-color;
+  color: $text-second;
+
+  &:hover {
+    background-color: mix($secondary-color, red);
+    color: $text-color;
+  }
+}
+
+.zero {
+  grid-column: 1 / span 2;
+  align-items: center;
+}
