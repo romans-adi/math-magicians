@@ -39,7 +39,7 @@ body {
   gap: 3px;
 }
 
-.screen {
+.result {
   grid-column: 1 / -1;
   color: $text-color;
   align-items: center;
@@ -52,6 +52,7 @@ body {
 }
 
 .btn {
+  font-size: 2rem;
   display: grid;
   place-content: center;
   cursor: pointer;
