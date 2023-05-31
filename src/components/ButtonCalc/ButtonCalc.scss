@@ -1,0 +1,50 @@
+$primary-color: rgb(224, 225, 225);
+$secondary-color: rgb(244, 144, 62);
+$tertiary-color: rgb(132, 134, 149);
+$text-color: rgb(255, 255, 255);
+$text-second: rgb(0, 0, 0);
+
+.result {
+  grid-column: 1 / -1;
+  color: $text-color;
+  align-items: center;
+  justify-content: flex-end;
+  display: flex;
+  padding: 0.5rem;
+  font-size: 3rem;
+  overflow: hidden;
+  background-color: $tertiary-color;
+  letter-spacing: -3px;
+}
+
+.btn {
+  font-size: 2rem;
+  display: grid;
+  place-content: center;
+  cursor: pointer;
+}
+
+.btn-grey {
+  background-color: $primary-color;
+  color: $text-second;
+
+  &:hover {
+    background-color: $tertiary-color;
+    color: $text-color;
+  }
+}
+
+.btn-orange {
+  background-color: $secondary-color;
+  color: $text-second;
+
+  &:hover {
+    background-color: mix($secondary-color, red);
+    color: $text-color;
+  }
+}
+
+.zero {
+  grid-column: 1 / span 2;
+  align-items: center;
+}
