@@ -15,6 +15,7 @@
     - [Setup](#setup)
     - [Usage](#usage)
     - [Deployment](#deployment)
+  - [🚀 Live Demo ](#-live-demo-)
   - [👥 Authors ](#-authors-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
@@ -103,9 +104,17 @@ To run tests, execute the following command:
 
 ### Deployment
 
-This project is planned to be deployed using GitHub Pages:
+This project deployed using GitHub Pages:
 
 - [GitHub Pages](https://pages.github.com/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo" target="_blank"></a>
+
+- [Online version of my project](https://romans-adi.github.io/math-magicians/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
