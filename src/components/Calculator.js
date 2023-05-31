@@ -1,29 +1,73 @@
 import React from 'react';
+import useCalculatorState from './useCalcState';
+import ButtonCalc from './ButtonCalc/ButtonCalc';
 
 function Calculator() {
+  const [currentState, buttonHandler] = useCalculatorState();
+
   return (
     <div className="container">
       <div className="wrapper">
-        <div className="result">0</div>
-        <div className="btn btn-grey">AC</div>
-        <div className="btn btn-grey">+/-</div>
-        <div className="btn btn-grey">%</div>
-        <div className="btn btn-orange">÷</div>
-        <div className="btn btn-grey">7</div>
-        <div className="btn btn-grey">8</div>
-        <div className="btn btn-grey">9</div>
-        <div className="btn btn-orange">×</div>
-        <div className="btn btn-grey">4</div>
-        <div className="btn btn-grey">5</div>
-        <div className="btn btn-grey">6</div>
-        <div className="btn btn-orange">-</div>
-        <div className="btn btn-grey">1</div>
-        <div className="btn btn-grey">2</div>
-        <div className="btn btn-grey">3</div>
-        <div className="btn btn-orange">+</div>
-        <div className="btn btn-grey zero">0</div>
-        <div className="btn btn-grey">.</div>
-        <div className="btn btn-orange">=</div>
+        <div className="result">
+          {currentState.next || currentState.total || '0'}
+        </div>
+        <ButtonCalc color="grey" onClick={() => buttonHandler('AC')}>
+          AC
+        </ButtonCalc>
+        <ButtonCalc color="grey" onClick={() => buttonHandler('+/-')}>
+          +/-
+        </ButtonCalc>
+        <ButtonCalc color="grey" onClick={() => buttonHandler('%')}>
+          %
+        </ButtonCalc>
+        <ButtonCalc color="orange" onClick={() => buttonHandler('÷')}>
+          ÷
+        </ButtonCalc>
+        <ButtonCalc color="grey" onClick={() => buttonHandler('7')}>
+          7
+        </ButtonCalc>
+        <ButtonCalc color="grey" onClick={() => buttonHandler('8')}>
+          8
+        </ButtonCalc>
+        <ButtonCalc color="grey" onClick={() => buttonHandler('9')}>
+          9
+        </ButtonCalc>
+        <ButtonCalc color="orange" onClick={() => buttonHandler('x')}>
+          x
+        </ButtonCalc>
+        <ButtonCalc color="grey" onClick={() => buttonHandler('4')}>
+          4
+        </ButtonCalc>
+        <ButtonCalc color="grey" onClick={() => buttonHandler('5')}>
+          5
+        </ButtonCalc>
+        <ButtonCalc color="grey" onClick={() => buttonHandler('6')}>
+          6
+        </ButtonCalc>
+        <ButtonCalc color="orange" onClick={() => buttonHandler('-')}>
+          -
+        </ButtonCalc>
+        <ButtonCalc color="grey" onClick={() => buttonHandler('1')}>
+          1
+        </ButtonCalc>
+        <ButtonCalc color="grey" onClick={() => buttonHandler('2')}>
+          2
+        </ButtonCalc>
+        <ButtonCalc color="grey" onClick={() => buttonHandler('3')}>
+          3
+        </ButtonCalc>
+        <ButtonCalc color="orange" onClick={() => buttonHandler('+')}>
+          +
+        </ButtonCalc>
+        <ButtonCalc className="btn btn-grey zero" onClick={() => buttonHandler('0')}>
+          0
+        </ButtonCalc>
+        <ButtonCalc color="grey" onClick={() => buttonHandler('.')}>
+          .
+        </ButtonCalc>
+        <ButtonCalc color="orange" onClick={() => buttonHandler('=')}>
+          =
+        </ButtonCalc>
       </div>
     </div>
   );
