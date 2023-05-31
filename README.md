@@ -38,6 +38,8 @@ Math Magicians is a website catering to mathematics enthusiasts. It is designed 
       <li><a href="https://sass-lang.com/">SCSS</a></li>
   </ul>
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
