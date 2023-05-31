@@ -46,9 +46,10 @@ body {
   justify-content: flex-end;
   display: flex;
   padding: 0.5rem;
-  font-size: 4rem;
+  font-size: 3rem;
   overflow: hidden;
   background-color: $tertiary-color;
+  letter-spacing: -3px;
 }
 
 .btn {
