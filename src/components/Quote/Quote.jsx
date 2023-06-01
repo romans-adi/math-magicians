@@ -22,12 +22,12 @@ function Quote() {
         {data[0].quote}
         &ldquo;
       </div>
-      <footer className="quote-author">
+      <span className="quote-author">
         {' '}
         -
         {' '}
         {data[0].author}
-      </footer>
+      </span>
     </blockquote>
   );
 }
