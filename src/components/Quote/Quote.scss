@@ -1,0 +1,37 @@
+@import '../../_colors.scss';
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+.quote {
+  font-family: 'Playfair Display', serif;
+  border: 1px transparent;
+  border-radius: 9px;
+  background-color: mix($tertiary-color, #3a3a3a);
+  box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5);
+  padding: 10%;
+  margin-bottom: 5%;
+}
+
+.quote-text {
+  color: $text-color;
+  font-size: 2rem;
+}
+
+.quote-author {
+  border-top: 1px solid #fff;
+  line-height: 1.8;
+  color: $text-color;
+  font-size: 1.6rem;
+  margin-top: 2%;
+  list-style: none;
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .quote-text {
+    font-size: 1.5rem;
+  }
+
+  .quote-author {
+    font-size: 1rem;
+  }
+}

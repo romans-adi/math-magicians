@@ -1,9 +1,12 @@
 import React from 'react';
+// eslint-disable-next-line import/no-extraneous-dependencies
 import PropTypes from 'prop-types';
 import './ButtonCalc.scss';
 
-function ButtonCalc({ onClick, children, color }) {
-  const buttonClassName = `btn btn-${color}`;
+function ButtonCalc({
+  onClick, children, color, className,
+}) {
+  const buttonClassName = `btn btn-${color} ${className}`;
 
   return (
     <button type="button" className={buttonClassName} onClick={() => onClick()}>
@@ -16,6 +19,11 @@ ButtonCalc.propTypes = {
   onClick: PropTypes.func.isRequired,
   children: PropTypes.node.isRequired,
   color: PropTypes.string.isRequired,
+  className: PropTypes.string,
+};
+
+ButtonCalc.defaultProps = {
+  className: '',
 };
 
 export default ButtonCalc;

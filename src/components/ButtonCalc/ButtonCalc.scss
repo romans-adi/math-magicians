@@ -1,8 +1,4 @@
-$primary-color: rgb(224, 225, 225);
-$secondary-color: rgb(244, 144, 62);
-$tertiary-color: rgb(132, 134, 149);
-$text-color: rgb(255, 255, 255);
-$text-second: rgb(0, 0, 0);
+@import '../../_colors.scss';
 
 .result {
   grid-column: 1 / -1;

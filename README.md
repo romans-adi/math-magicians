@@ -38,12 +38,18 @@ Math Magicians is a website catering to mathematics enthusiasts. It is designed 
       <li><a href="https://sass-lang.com/">SCSS</a></li>
   </ul>
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
 <ul>
   <li>Component-based architecture</li>
+  <li>Styling & Accessibility</li>
+  <li>Project involves fetching quotes from an API</li>
+  <li>Error Handling</li>
+  <li>State-based behavior of elements</li>
   <li>JSX syntax</li>
 </ul>
 
@@ -53,8 +59,8 @@ Math Magicians is a website catering to mathematics enthusiasts. It is designed 
 
 ### Future Features <a name="future-features"></a>
 
-- **API requests**
-- **Full functionality**
+- **New Pages**
+- **New Hooks**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
