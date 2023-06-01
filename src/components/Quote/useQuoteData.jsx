@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
-function QuoteDisplay() {
+function useQuoteData() {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -27,29 +27,7 @@ function QuoteDisplay() {
     fetchData();
   }, []);
 
-  if (loading) {
-    return <p>Loading...</p>;
-  }
-
-  if (error) {
-    return (
-      <p>
-        Error:
-        {error}
-      </p>
-    );
-  }
-
-  return (
-    <div>
-      <h2>{data[0].quote}</h2>
-      <ul>
-        {data.map((quote) => (
-          <li key={quote.id}>{quote.author}</li>
-        ))}
-      </ul>
-    </div>
-  );
+  return { data, loading, error };
 }
 
-export default QuoteDisplay;
+export default useQuoteData;

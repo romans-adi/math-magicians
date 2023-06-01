@@ -1,12 +1,12 @@
 import React from 'react';
 import Calculator from './components/Calculator';
-import QuoteDisplay from './components/Quote/Quote';
+import Quote from './components/Quote/Quote';
 
 function App() {
   return (
     <div className="container">
       <Calculator />
-      <QuoteDisplay />
+      <Quote />
     </div>
   );
 }
