@@ -27,3 +27,7 @@ dist-ssr
 
 src/components/__tests__/__snapshots__
 src/__tests__/__snapshots__
+
+# test coverage
+
+coverage
