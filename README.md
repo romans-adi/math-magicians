@@ -135,6 +135,13 @@ This project deployed using GitHub Pages:
 
 Contributions, issues, and feature requests are welcome!
 
+Special thanks to [Junior Garcia Rodriguez](@JuniorGarciaRodriguez) for his significant contributions during the testing phase of the project. His expertise and effort greatly improved the overall quality and reliability of the application.
+
+👤 **Junior Garcia Rodriguez**
+
+- GitHub: [@JuniorGarciaRodriguez](https://github.com/JuniorGarciaRodriguez)
+- LinkedIn: [Junior G](https://www.linkedin.com/in/junior-g-078143191)
+
 Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
