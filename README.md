@@ -44,14 +44,11 @@ Math Magicians is a website catering to mathematics enthusiasts. It is designed 
 
 ### Key Features <a name="key-features"></a>
 
-<ul>
-  <li>Component-based architecture</li>
-  <li>Styling & Accessibility</li>
-  <li>Project involves fetching quotes from an API</li>
-  <li>Error Handling</li>
-  <li>State-based behavior of elements</li>
-  <li>JSX syntax</li>
-</ul>
+- [x] Home Page: Engaging landing page with a clear description of the platform's purpose and features.
+- [x] Calculator: Fully functional calculator with a user-friendly interface for basic and complex calculations.
+- [x] Quote Page: Displays random inspirational quotes from an API for motivation and positivity.
+- [x] Responsive Design: Adapts to different screen sizes and devices for optimal viewing experience.
+- [x] Navigation Bar: Persistent navigation bar for easy access to different sections of the application.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -59,8 +56,10 @@ Math Magicians is a website catering to mathematics enthusiasts. It is designed 
 
 ### Future Features <a name="future-features"></a>
 
-- **New Pages**
-- **New Hooks**
+- [] User Accounts and Personalization: Allow users to create profiles, save preferences, and customize their experience.
+- [] Interactive Charts and Graphs: Integrate interactive visualizations for enhanced data analysis.
+- [] Educational Resources: Provide tutorials, articles, or videos to support users' learning.
+- [] Collaboration and Sharing: Enable users to collaborate, share calculations, and generate shareable links.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

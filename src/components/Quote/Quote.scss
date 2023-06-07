@@ -1,5 +1,13 @@
-@import '../../_colors.scss';
+@import '../../../colors';
+@import '../../../mixins';
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+.container-quote {
+  /* stylelint-disable at-rule-no-unknown */
+  @include container;
+
+  justify-content: center;
+}
 
 .quote {
   font-family: 'Playfair Display', serif;
