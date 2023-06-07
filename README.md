@@ -15,7 +15,6 @@
     - [Setup](#setup)
     - [Usage](#usage)
     - [Deployment](#deployment)
-  - [🚀 Live Demo ](#-live-demo-)
   - [👥 Authors ](#-authors-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
@@ -36,6 +35,8 @@ Math Magicians is a website catering to mathematics enthusiasts. It is designed 
      <li><a href="https://react.dev/">React</a></li>
       <li><a href="https://www.javascript.com/">JavaScript</a></li>
       <li><a href="https://sass-lang.com/">SCSS</a></li>
+      <li><a href="https://www.w3.org/Style/CSS/Overview.en.html">CSS</a></li>
+      <li><a href="https://jestjs.io/">Jest</a></li>
   </ul>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -49,6 +50,8 @@ Math Magicians is a website catering to mathematics enthusiasts. It is designed 
 - [x] Quote Page: Displays random inspirational quotes from an API for motivation and positivity.
 - [x] Responsive Design: Adapts to different screen sizes and devices for optimal viewing experience.
 - [x] Navigation Bar: Persistent navigation bar for easy access to different sections of the application.
+- [x] Snapshot Tests: Jest snapshot tests to capture and track the rendered output of React components.
+- [x] Unit Tests: Comprehensive unit tests for all components, functions, and utilities.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -111,14 +114,6 @@ To run tests, execute the following command:
 This project deployed using GitHub Pages:
 
 - [GitHub Pages](https://pages.github.com/)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo" target="_blank"></a>
-
-- [Online version of my project](https://romans-adi.github.io/math-magicians/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
