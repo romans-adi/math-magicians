@@ -1,0 +1,47 @@
+@import '../../../mixins';
+@import '../../../colors';
+
+.container-calculator {
+  /* stylelint-disable at-rule-no-unknown */
+  @include container;
+
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: space-between;
+  height: calc(100vh - 100px);
+}
+
+.calculator {
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  flex-grow: 1;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+  height: 90%;
+}
+
+.calculator-heading {
+  text-align: center;
+  font-size: 78px;
+  color: $text-color;
+  -webkit-text-stroke: 1px $tertiary-color;
+  padding: 20px;
+  margin-right: 1%;
+}
+
+@media (max-width: 767px) {
+  .container-calculator {
+    height: auto;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .calculator-heading {
+    font-size: 33px;
+    margin-bottom: 20px;
+  }
+}

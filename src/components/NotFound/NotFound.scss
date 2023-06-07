@@ -1,0 +1,23 @@
+#not-found {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100vw;
+  z-index: 0;
+}
+
+.not-found-message {
+  background: rgba(255, 255, 255, 0.5);
+  padding: 5%;
+  width: 90%;
+  border: transparent;
+  border-radius: 8px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+
+  & p {
+    margin: 10px 0;
+  }
+}

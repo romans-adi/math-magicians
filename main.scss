@@ -1,0 +1,52 @@
+@import url('https://fonts.cdnfonts.com/css/copenhagen-grotesk');
+@import './colors';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+
+  &:visited {
+    color: #fff;
+  }
+}
+
+body {
+  font-family: 'Copenhagen Grotesk', sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-size: 2rem;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+  padding-top: 100px;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  background: linear-gradient(to bottom, #8e9eab, #eef2f3);
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px 0 0;
+}
+
+@media (max-width: 480px) {
+  .wrapper {
+    margin-top: 100px;
+  }
+}

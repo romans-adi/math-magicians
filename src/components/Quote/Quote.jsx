@@ -16,6 +16,7 @@ function Quote() {
   }
 
   return (
+    <div className="container-quote">
     <blockquote className="quote">
       <div className="quote-text">
         &ldquo;
@@ -29,6 +30,7 @@ function Quote() {
         {data[0].author}
       </div>
     </blockquote>
+    </div>
   );
 }
 
