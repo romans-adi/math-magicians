@@ -1,15 +1,15 @@
-import React from "react";
-import Calculator from "./components/Calculator/Calculator";
-import Quote from "./components/Quote/Quote";
-import { Routes, Route, BrowserRouter, useLocation } from "react-router-dom";
-import Navbar from "./components/Navbar/Navbar";
-import Home from "./components/Home/Home";
-import NotFound from "./components/NotFound/NotFound";
+import React from 'react';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
+import Calculator from './components/Calculator/Calculator';
+import Quote from './components/Quote/Quote';
+import Navbar from './components/Navbar/Navbar';
+import Home from './components/Home/Home';
+import NotFound from './components/NotFound/NotFound';
 
 function App() {
   return (
     <BrowserRouter>
-            <Navbar />
+      <Navbar />
       <div className="wrapper">
         <Routes>
           <Route path="/" element={<Home />} />

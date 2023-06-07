@@ -17,19 +17,19 @@ function Quote() {
 
   return (
     <div className="container-quote">
-    <blockquote className="quote">
-      <div className="quote-text">
-        &ldquo;
-        {data[0].quote}
-        &ldquo;
-      </div>
-      <div className="quote-author">
-        {' '}
-        -
-        {' '}
-        {data[0].author}
-      </div>
-    </blockquote>
+      <blockquote className="quote">
+        <div className="quote-text">
+          &ldquo;
+          {data[0].quote}
+          &ldquo;
+        </div>
+        <div className="quote-author">
+          {' '}
+          -
+          {' '}
+          {data[0].author}
+        </div>
+      </blockquote>
     </div>
   );
 }

@@ -1,5 +1,5 @@
-import { useState } from "react";
-import calculate from "./logic/calculate";
+import { useState } from 'react';
+import calculate from './logic/calculate';
 
 function useCalculatorState() {
   const [currentState, setCurrentState] = useState({
