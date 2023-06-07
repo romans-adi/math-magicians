@@ -1,7 +1,7 @@
 import React from 'react';
 import useQuoteData from './useQuoteData';
-import Loading from './states/loading';
-import Error from './states/error';
+import Loading from './states/Loading';
+import Error from './states/Error';
 import './Quote.scss';
 
 function Quote() {
@@ -13,6 +13,10 @@ function Quote() {
 
   if (error) {
     return <Error />;
+  }
+
+  if (data.length === 0) {
+    return null;
   }
 
   return (
