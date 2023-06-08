@@ -22,3 +22,12 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Snapshots
+
+src/components/__tests__/__snapshots__
+src/__tests__/__snapshots__
+
+# test coverage
+
+coverage

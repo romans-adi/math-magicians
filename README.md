@@ -15,7 +15,6 @@
     - [Setup](#setup)
     - [Usage](#usage)
     - [Deployment](#deployment)
-  - [🚀 Live Demo ](#-live-demo-)
   - [👥 Authors ](#-authors-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
@@ -36,6 +35,8 @@ Math Magicians is a website catering to mathematics enthusiasts. It is designed 
      <li><a href="https://react.dev/">React</a></li>
       <li><a href="https://www.javascript.com/">JavaScript</a></li>
       <li><a href="https://sass-lang.com/">SCSS</a></li>
+      <li><a href="https://www.w3.org/Style/CSS/Overview.en.html">CSS</a></li>
+      <li><a href="https://jestjs.io/">Jest</a></li>
   </ul>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -49,6 +50,8 @@ Math Magicians is a website catering to mathematics enthusiasts. It is designed 
 - [x] Quote Page: Displays random inspirational quotes from an API for motivation and positivity.
 - [x] Responsive Design: Adapts to different screen sizes and devices for optimal viewing experience.
 - [x] Navigation Bar: Persistent navigation bar for easy access to different sections of the application.
+- [x] Snapshot Tests: Jest snapshot tests to capture and track the rendered output of React components.
+- [x] Unit Tests: Comprehensive unit tests for all components, functions, and utilities.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -114,14 +117,6 @@ This project deployed using GitHub Pages:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo" target="_blank"></a>
-
-- [Online version of my project](https://romans-adi.github.io/math-magicians/)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
@@ -139,6 +134,13 @@ This project deployed using GitHub Pages:
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
+
+Special thanks to [Junior Garcia Rodriguez](@JuniorGarciaRodriguez) for his significant contributions during the testing phase of the project. His expertise and effort greatly improved the overall quality and reliability of the application.
+
+👤 **Junior Garcia Rodriguez**
+
+- GitHub: [@JuniorGarciaRodriguez](https://github.com/JuniorGarciaRodriguez)
+- LinkedIn: [Junior G](https://www.linkedin.com/in/junior-g-078143191)
 
 Feel free to check the [issues page](../../issues/).
 
