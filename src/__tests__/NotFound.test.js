@@ -3,7 +3,7 @@ import { render } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { JSDOM } from 'jsdom';
-import NotFound from '../NotFound/NotFound';
+import NotFound from '../components/NotFound/NotFound';
 
 const dom = new JSDOM('<!doctype html><html><body></body></html>', {
   url: 'http://localhost/',

@@ -1,8 +1,9 @@
 import React from 'react';
+import { render } from '@testing-library/react';
+import { MemoryRouter } from 'react-router-dom';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { JSDOM } from 'jsdom';
-import { render } from '@testing-library/react';
-import ButtonCalc from '../Calculator/ButtonCalc/ButtonCalc';
+import Navbar from '../components/Navbar/Navbar';
 
 const dom = new JSDOM('<!doctype html><html><body></body></html>', {
   url: 'http://localhost/',
@@ -13,15 +14,12 @@ global.navigator = {
   userAgent: 'node.js',
 };
 
-describe('ButtonCalc', () => {
+describe('Navbar', () => {
   test('renders correctly', () => {
-    const onClick = jest.fn();
-    const color = 'my-color';
-    const className = 'my-class';
     const { container } = render(
-      <ButtonCalc onClick={onClick} color={color} className={className}>
-        Bu Bu Button
-      </ButtonCalc>,
+      <MemoryRouter>
+        <Navbar />
+      </MemoryRouter>,
     );
     expect(container).toMatchSnapshot();
   });

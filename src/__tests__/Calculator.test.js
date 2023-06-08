@@ -2,7 +2,7 @@ import React from 'react';
 import { render } from '@testing-library/react';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { JSDOM } from 'jsdom';
-import Calculator from '../Calculator/Calculator';
+import Calculator from '../components/Calculator/Calculator';
 
 const dom = new JSDOM('<!doctype html><html><body></body></html>', {
   url: 'http://localhost/',

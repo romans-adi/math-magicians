@@ -4,7 +4,7 @@ import { render } from '@testing-library/react';
 import { JSDOM } from 'jsdom';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import '@testing-library/jest-dom/extend-expect';
-import Quote from '../Quote/Quote';
+import Quote from '../components/Quote/Quote';
 
 const dom = new JSDOM('<!doctype html><html><body></body></html>', {
   url: 'http://localhost/',
@@ -15,7 +15,7 @@ global.navigator = {
   userAgent: 'node.js',
 };
 
-jest.mock('../Quote/useQuoteData', () => ({
+jest.mock('../components/Quote/useQuoteData', () => ({
   __esModule: true,
   default: jest.fn(() => ({
     data: [

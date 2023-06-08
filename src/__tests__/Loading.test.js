@@ -1,9 +1,8 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import { MemoryRouter } from 'react-router-dom';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { JSDOM } from 'jsdom';
-import Navbar from '../Navbar/Navbar';
+import Loading from '../components/Quote/states/Loading';
 
 const dom = new JSDOM('<!doctype html><html><body></body></html>', {
   url: 'http://localhost/',
@@ -14,13 +13,9 @@ global.navigator = {
   userAgent: 'node.js',
 };
 
-describe('Navbar', () => {
+describe('Loading', () => {
   test('renders correctly', () => {
-    const { container } = render(
-      <MemoryRouter>
-        <Navbar />
-      </MemoryRouter>,
-    );
+    const { container } = render(<Loading />);
     expect(container).toMatchSnapshot();
   });
 });
