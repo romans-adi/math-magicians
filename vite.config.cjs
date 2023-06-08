@@ -7,6 +7,7 @@ import sass from 'sass';
 export default defineConfig({
   plugins: [react()],
   build: {
+    template: 'index.html',
     rollupOptions: {
       input: './main.jsx',
     },
