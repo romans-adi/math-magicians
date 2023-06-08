@@ -10,6 +10,7 @@
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
     - [Future Features ](#future-features-)
+  - [:rocket: Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -68,6 +69,14 @@ Math Magicians is a website catering to mathematics enthusiasts. It is designed 
 
 <!-- GETTING STARTED -->
 
+## :rocket: Live Demo <a name="live-demo"></a>
+
+- [Here is a Live Demo of this project](https://math-magicians-srkx.onrender.com/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
@@ -111,9 +120,9 @@ To run tests, execute the following command:
 
 ### Deployment
 
-This project deployed using GitHub Pages:
+This project deployed using Render Cloud:
 
-- [GitHub Pages](https://pages.github.com/)
+- [Render Cloud](https://render.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
