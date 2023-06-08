@@ -1,3 +1,5 @@
+// eslint-disable-next-line import/no-extraneous-dependencies, no-global-assign
+require = require('esm')(module);
 // eslint-disable-next-line import/no-extraneous-dependencies
 const { defineConfig } = require('vite');
 // eslint-disable-next-line import/no-extraneous-dependencies
