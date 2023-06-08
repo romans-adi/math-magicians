@@ -10,7 +10,7 @@
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
     - [Future Features ](#future-features-)
-  - [:rocket: Live Demo ](#-live-demo-)
+  - [:rocket: Live Demo ](#live-demo)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -60,10 +60,10 @@ Math Magicians is a website catering to mathematics enthusiasts. It is designed 
 
 ### Future Features <a name="future-features"></a>
 
-- [] User Accounts and Personalization: Allow users to create profiles, save preferences, and customize their experience.
-- [] Interactive Charts and Graphs: Integrate interactive visualizations for enhanced data analysis.
-- [] Educational Resources: Provide tutorials, articles, or videos to support users' learning.
-- [] Collaboration and Sharing: Enable users to collaborate, share calculations, and generate shareable links.
+- [ ] User Accounts and Personalization: Allow users to create profiles, save preferences, and customize their experience.
+- [ ] Interactive Charts and Graphs: Integrate interactive visualizations for enhanced data analysis.
+- [ ] Educational Resources: Provide tutorials, articles, or videos to support users' learning.
+- [ ] Collaboration and Sharing: Enable users to collaborate, share calculations, and generate shareable links.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
