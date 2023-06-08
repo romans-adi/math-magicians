@@ -1,12 +1,10 @@
-// eslint-disable-next-line import/no-extraneous-dependencies, no-global-assign
-require = require('esm')(module);
 // eslint-disable-next-line import/no-extraneous-dependencies
-const { defineConfig } = require('vite');
+import { defineConfig } from 'vite';
 // eslint-disable-next-line import/no-extraneous-dependencies
-const react = require('@vitejs/plugin-react-swc');
-const sass = require('sass');
+import react from '@vitejs/plugin-react-swc';
+import sass from 'sass';
 
-module.exports = defineConfig({
+export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
